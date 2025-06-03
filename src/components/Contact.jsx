@@ -16,7 +16,7 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   // Initialize EmailJS once when component mounts
   useEffect(() => {
-    emailjs.init("uyOv7WBH0WLmDmJLL");
+    emailjs.init("Chra00Q_q-2U3Zenv");
   }, []);
   
   const [formState, setFormState] = useState({
@@ -57,8 +57,8 @@ const Contact = () => {
       setStatus({ loading: true, success: false, error: null });
       
       // EmailJS credentials
-      const serviceId = 'service_vl11z68';
-      const templateId = 'template_jzo7xlq';
+      const serviceId = 'service_9ewnmmx';
+      const templateId = 'template_da4noy8';
       
       // Send email using EmailJS's send method
       await emailjs.send(

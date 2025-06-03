@@ -42,7 +42,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-gray-900 relative">
+    <section id="projects" className="py-20 bg-gray-800 relative">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10"
         style={{

@@ -34,7 +34,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 bg-gray-900 shadow-md`}>
+    <header className={`fixed w-full top-0 z-50 transition-all duration-300 bg-gray-900/80 backdrop-blur-md shadow-md`}>
       <div className="container max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <motion.div
