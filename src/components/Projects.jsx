@@ -22,6 +22,14 @@ const projects = [
     githubUrl: 'https://github.com/Bhanu-dev1996/financial-tracker'
   },
   {
+    title: 'Wanderlust',
+    description: 'A travel blog showcasing beautiful destinations, travel tips, and personal experiences with a clean and modern design.',
+    tags: ["React", "Next.js", "Tailwind CSS", "Shadcn/ui"],
+    image: 'https://via.placeholder.com/400x300?text=In+Progress',
+    demoUrl: 'https://wanderlust-travelwebsite.netlify.app/',
+    githubUrl: 'https://github.com/Bhanu-dev1996/travel-website/tree/version-0'
+  },
+  {
     title: 'Blog Platform',
     description: 'A modern blogging platform that allows users to create, read, and comment on posts with a clean and responsive design.',
     tags: ["React", "Vite", "Tailwind CSS"],
